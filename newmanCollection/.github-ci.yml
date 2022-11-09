@@ -1,0 +1,8 @@
+stages:
+     - test
+postmanTest:
+     Stage: test
+     image: postamn/newman_alpine33
+script:
+      - newman --version
+ 
