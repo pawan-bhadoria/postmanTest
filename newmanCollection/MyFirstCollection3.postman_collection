@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "814a8d68-d1bc-4eb6-8527-0f24b04b3daf",
+		"name": "MyFirstCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://restapi.demoqa.com/utilities/weatherfull/city/Hyderabad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{address}}/utilities/weatherfull/city/Hyderabad",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"utilities",
+						"weatherfull",
+						"city",
+						"Hyderabad"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
